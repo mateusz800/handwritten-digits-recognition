@@ -1,6 +1,49 @@
+body{
+    margin-top:100px;
+}
+.container{
+    margin:auto;
+    display:inline-flex;
+}
+.center{
+    margin:auto;
+    text-align: center;
+}
 #canvas{
     margin:auto;
     width:280px;
     height:280px;
-    border:1px solid black;
+    border:10px solid rgba(0, 136, 247,0.5);
+    transition: border 1s;
+    display:block;
 }
+#canvas:hover{
+    border-color: rgba(0, 136, 247, 1);
+}
+button{
+    background-color:white;
+    border:none;
+    color:rgba(0, 136, 247, 1); 
+    font-weight: bolder;
+    font-size: large;
+    transition: background-color 1s;  
+    cursor: pointer; 
+}
+button:hover{
+    background-color:rgba(0, 136, 247,0.2);
+}
+button.clear::first-letter{
+    font-size: x-large;
+}
+.links{
+    margin-top:100px;
+    text-align: center;
+    line-height: 30px;
+    align-items: top;
+}
+img.icon{
+    height:30px;
+    margin:auto;
+}
+
+

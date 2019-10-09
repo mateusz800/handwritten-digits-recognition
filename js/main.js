@@ -2,6 +2,7 @@
 
 const canvas = new Canvas();
 const model = new Model();
+const figure = new Figure();
 
 
 function makePrediction(){
@@ -14,5 +15,5 @@ function makePrediction(){
 }
 
 function updateDiagram(data){
-    console.log(data);
+    figure.update(data);
 }
