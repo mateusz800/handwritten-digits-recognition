@@ -16,6 +16,7 @@ body{
     border:10px solid rgba(0, 136, 247,0.5);
     transition: border 1s;
     display:block;
+    margin-right:100px;
 }
 #canvas:hover{
     border-color: rgba(0, 136, 247, 1);
@@ -45,21 +46,35 @@ img.icon{
     height:30px;
     margin:auto;
 }
-#prediction_label{
+#prediction_label {
     margin-top:20px;
     font-weight: bold;
     font-size: large;
     max-width:300px;
     height:50px;
     color:"#333333";
+    text-align: center;
+    margin:auto;
   }
 #question{
     font-weight: bolder;
     font-size: larger;
     transition:opacity 1s;
     opacity:0;
+    text-align:center;
+    margin:auto;
 }
 #question.active{
     opacity:1;
 }
 
+
+
+@media screen and (max-width: 700px) {
+    .container{
+        display:block;
+    }
+    #canvas{
+        margin-right:0;
+    }
+}
