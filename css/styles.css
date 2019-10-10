@@ -45,5 +45,21 @@ img.icon{
     height:30px;
     margin:auto;
 }
-
+#prediction_label{
+    margin-top:20px;
+    font-weight: bold;
+    font-size: large;
+    max-width:300px;
+    height:50px;
+    color:"#333333";
+  }
+#question{
+    font-weight: bolder;
+    font-size: larger;
+    transition:opacity 1s;
+    opacity:0;
+}
+#question.active{
+    opacity:1;
+}
 

@@ -2,7 +2,7 @@ class Bar{
     constructor(element){
         this.element = element;
         this.value = 0.0;
-        this.max_height = 200;
+        this.max_height = 120;
     }
     setValue(newValue){
         this.value = newValue;

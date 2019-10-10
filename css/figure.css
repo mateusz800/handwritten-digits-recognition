@@ -1,6 +1,6 @@
 
 .figure{
-  height:200px;
+  height:120px;
   overflow-y:hidden;
   width:300px;
   margin:auto;
@@ -17,10 +17,9 @@
 .category{
     text-align:center;
     display:inline-block;
-    line-height:$line_height;
-    width:9%;
+    width:8%;
     position:relative;
-    top:180px;
+    top:100px;
     transition:transform 1s;
     height:100%;
     font-weight:bolder;
@@ -29,10 +28,4 @@
   width:100%;
   height:200px;
   background-color:rgba(0, 136, 247,0.8);
-}
-.category.active{
-  transform:translate(0, -100px);
-}
-.category:hover{
-  transform:translate(0, -100px);
 }

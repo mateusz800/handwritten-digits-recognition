@@ -15,48 +15,58 @@
                     <button class="clear" onclick="canvas.clear()">&times; clear</button>
                     <button onclick="makePrediction()">predict</button>
                 </div>
-                <div class="figure">
-                        <div class="floor">
-                        <div class="category">
-                            0
-                            <div class="bar"></div>
+                <div class="conatiner center">
+                    <div class="figure">
+                            <div class="floor">
+                            <div class="category">
+                                0
+                                <div class="bar"></div>
+                            </div>
+                            <div class="category">
+                                1
+                                <div class="bar"></div>
+                            </div>
+                            <div class="category">
+                                2
+                                <div class="bar"></div>
+                            </div>
+                            <div class="category">
+                                3
+                                <div class="bar"></div>
+                            </div>
+                            <div class="category">
+                                4
+                                <div class="bar"></div>
+                            </div>
+                            <div class="category">
+                                5
+                                <div class="bar"></div>
+                            </div>
+                            <div class="category">
+                                6
+                                <div class="bar"></div>
+                            </div>
+                            <div class="category">
+                                7
+                                <div class="bar"></div>
+                            </div>
+                            <div class="category">
+                                8
+                                <div class="bar"></div>
+                            </div>
+                            <div class="category">
+                                9
+                                <div class="bar"></div>
+                            </div>
                         </div>
-                        <div class="category">
-                            1
-                            <div class="bar"></div>
-                        </div>
-                        <div class="category">
-                            2
-                            <div class="bar"></div>
-                        </div>
-                        <div class="category">
-                            3
-                            <div class="bar"></div>
-                        </div>
-                        <div class="category">
-                            4
-                            <div class="bar"></div>
-                        </div>
-                        <div class="category">
-                            5
-                            <div class="bar"></div>
-                        </div>
-                        <div class="category">
-                            6
-                            <div class="bar"></div>
-                        </div>
-                        <div class="category">
-                            7
-                            <div class="bar"></div>
-                        </div>
-                        <div class="category">
-                            8
-                            <div class="bar"></div>
-                        </div>
-                        <div class="category">
-                            9
-                            <div class="bar"></div>
-                        </div>
+                    </div>
+                    <div id="prediction_label">
+                        Draw some digit and then click predict button. I will try guess which one it is.
+                    </div>
+                    <div id="question">
+                        <p>Am I right?</p>
+                        <button onclick="answer('yes')">&#10004; Yes</button>
+                        <button onclick="answer('no')">&times;  No</button>
                     </div>
                 </div>
             </div>
