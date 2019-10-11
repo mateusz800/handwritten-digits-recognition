@@ -1,3 +1,6 @@
 python_model/
 model/
 model.json
+model.h5
+keras.ipynb
+.ipynb_checkpoints
