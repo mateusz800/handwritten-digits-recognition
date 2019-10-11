@@ -6,5 +6,5 @@ Model takes as an input an array of pixels (28, 28, 1) divided by 255.
 
 # Run
 To run the project you may use http-server (node.js module) to host tensorflowjs model. 
-    - In console type http-server tfjs_model/
-    - Open index.html
+- In console type http-server tfjs_model/
+- Open index.html
