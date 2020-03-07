@@ -56,18 +56,6 @@ img.icon{
     text-align: center;
     margin:auto;
   }
-#question{
-    font-weight: bolder;
-    font-size: larger;
-    transition:opacity 1s;
-    opacity:0;
-    text-align:center;
-    margin:auto;
-}
-#question.active{
-    opacity:1;
-}
-
 
 
 @media screen and (max-width: 700px) {

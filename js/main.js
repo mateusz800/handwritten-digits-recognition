@@ -17,9 +17,5 @@ function makePrediction(){
 function updateDiagram(data){
     figure.update(data);
     document.querySelector('#prediction_label').innerHTML = "<p>I think it is "+data.indexOf(Math.max(...data))+"</p>";
-    document.querySelector('#question').classList.add('active');
 }
 
-function answer(value){
-    document.querySelector('#question').classList.remove('active');
-}
